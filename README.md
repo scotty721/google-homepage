@@ -1,0 +1,1 @@
+For this project I am required to replicate the look of the google homepage. To do this I will need to use the skills I have learnt with HTML and CSS from The Odin Project
