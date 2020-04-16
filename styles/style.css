@@ -9,33 +9,37 @@ img {
 }
 .searchbar {
     position: absolute;
-    border-width: 1px;
-    border-radius: 10px;
-    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    height: 30px;
     width: 500px;
     left: 50%;
     margin-left: -250px;
-    top: 35%;
+    top: 36%;
 }
 .searchbutton {
     position: absolute;
-    border: 1px solid;
-    border-radius: 10px;
-    height: 30px;
+    height: 35px;
     min-width: 54px;
-    left: 43%;
+    left: 45%;
     margin-left: -25px;
     top: 41%;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: gray;
+    text-align: center;
 }
 .lucky {
     position: absolute;
-    border: 1px solid;
-    border-radius: 10px;
-    height: 30px;
+    left: 51%;
+    height: 35px;
     min-width: 54px;
-    left: 53%;
     margin-left: -25px;
     top: 41%;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: gray;
+    text-align: center;
 }
 #topbar {
     top: 16px;
@@ -52,14 +56,18 @@ img {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    padding-left: 15px; 
+    padding-left: 10px; 
 }
 #topleft li {
     padding-right: 15px;
 }
 #topleft a {
     display: inline-block;
-    color: #000
+    text-decoration: none;
+    color: #000;
+}
+#topleft a:hover {
+    text-decoration: underline;
 }
 #topright {
     position: relative;
@@ -70,14 +78,18 @@ img {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 #topright li {
     padding-left: 15px;
 }
 #topright a {
     display: inline-block;
+    text-decoration: none;
     color: #000;
+}
+#topright a:hover {
+    text-decoration: underline;
 }
 #bottombar {
     position: absolute;
@@ -86,6 +98,7 @@ img {
     right: 0;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
 }
 #bottomleft {
     position: relative;
@@ -97,14 +110,18 @@ img {
     display: flex;
     flex-direction: row;
     padding-left: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 #bottomleft li {
     padding-right: 15px;
 }
 #bottomleft a {
     display: inline-block;
-    color: #000
+    text-decoration: none;
+    color: #000;
+}
+#bottomleft a:hover {
+    text-decoration: underline;
 }
 #bottomright {
     position: relative;
@@ -115,13 +132,17 @@ img {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 #bottomright li {
     padding-left: 15px;
 }
 #bottomright a {
     display: inline-block;
-    color: #000
+    text-decoration: none;
+    color: #000;
+}
+#bottomright a:hover {
+    text-decoration: underline;
 }
