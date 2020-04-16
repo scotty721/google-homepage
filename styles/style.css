@@ -1,0 +1,81 @@
+img {
+    position: absolute;
+    height: 90px;
+    width: 270px;
+    left: 50%;
+    margin-left: -135px;
+    top: 30%;
+    margin-top: -50px;
+}
+.searchbar {
+    position: absolute;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 500px;
+    left: 50%;
+    margin-left: -250px;
+    top: 35%;
+}
+.searchbutton {
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 30px;
+    min-width: 54px;
+    left: 43%;
+    margin-left: -25px;
+    top: 41%;
+}
+.lucky {
+    position: absolute;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 30px;
+    min-width: 54px;
+    left: 53%;
+    margin-left: -25px;
+    top: 41%;
+}
+#topbar {
+    top: 16px;
+    position: relative;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#topleft {
+    position: relative;
+    margin: 7px 0 0 10px;
+    float: left;
+}
+#topleft ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px; 
+}
+#topleft li {
+    padding-right: 15px;
+}
+#topleft a {
+    display: inline-block;
+    color: #000
+}
+#topright {
+    position: relative;
+    margin: 7px 0 0 10px;
+    float: right;
+}    
+#topright ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 15px;
+}
+#topright li {
+    padding-left: 15px;
+}
+#topright a {
+    display: inline-block;
+    color: #000;
+}
