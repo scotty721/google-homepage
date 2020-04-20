@@ -4,6 +4,7 @@ html body {
 #centre {
     height: 100%;
     display: flex;
+    padding-left: 80px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
