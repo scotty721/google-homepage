@@ -1,1 +1,3 @@
-For this project I am required to replicate the look of the google homepage. To do this I will need to use the skills I have learnt with HTML and CSS from The Odin Project
+For this project I am required to replicate the look of the google homepage. To do this I will need to use the skills I have learnt with HTML and CSS from The Odin Project.
+
+To Achieve this I had refresh on just how the boxes interacted together when positioning elements on a page. I initially started with an absolute positioning method however this caused all my elements to become squished when I resized the page. I therefore settled on the flex method and consolidated my understanding through the use of flexbox froggy (https://www.google.com/search?client=firefox-b-d&q=flexbox+froggy). This site broke down just how flex box works and I was able to align my elements much more effciently for a desktop viewing experience.
