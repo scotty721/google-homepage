@@ -1,45 +1,69 @@
-img {
-    position: absolute;
-    height: 90px;
-    width: 270px;
-    left: 50%;
-    margin-left: -135px;
-    top: 30%;
-    margin-top: -50px;
+html body {
+    height: 100%;
 }
-.searchbar {
-    position: absolute;
+#centre {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#logo {
+    margin-top: 250px;
+    padding-bottom: 10px;
+}
+#bar {
+    display: inline-flex;
+    height: 40px;
+    width: 582px;
+    padding: 0 20px 0 20px;
     border: 1px solid gainsboro;
-    border-radius: 20px;
-    height: 30px;
+    border-radius: 24px;
+}
+.glass {
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    padding-top: 0.8em;
+    padding-right: 0.1em;
+    opacity: 0.5;
+}
+.txt {
+    display: inline-flex;
+    height: 40px;
     width: 500px;
-    left: 50%;
-    margin-left: -250px;
-    top: 36%;
+    padding: 0 10px 0 10px;
+    outline: none;
+    border: none;
+}
+.microphone {
+    display: inline-flex;
+    align-content: flex-end;
+    width: 20px;
+    height: 30px;
+    padding-top: 0.3em;
+    padding-left: 2.8em;
+}
+#buttons {
+    padding-top: 20px;
 }
 .searchbutton {
-    position: absolute;
     height: 35px;
     min-width: 54px;
-    left: 45%;
-    margin-left: -25px;
-    top: 41%;
     border: 1px solid white;
     border-radius: 4px;
     color: gray;
     text-align: center;
+    margin-right: 5px;
 }
-.lucky {
-    position: absolute;
-    left: 51%;
+.luckybutton {
     height: 35px;
     min-width: 54px;
-    margin-left: -25px;
-    top: 41%;
     border: 1px solid white;
     border-radius: 4px;
     color: gray;
     text-align: center;
+    margin-left: 5px;
 }
 #topbar {
     top: 16px;
@@ -90,6 +114,11 @@ img {
 }
 #topright a:hover {
     text-decoration: underline;
+}
+#dots {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
 }
 #bottombar {
     position: absolute;
